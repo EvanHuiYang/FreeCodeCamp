@@ -1,0 +1,38 @@
+.red-text {
+    color: red;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.smaller-image {
+    width: 100px;
+}
+
+/* border properties */
+.thin-red-border {
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+    /* border-radius: 10px; */
+}
+
+body {
+}
+
+h2 {
+    font-family: Lobster, Monospace;
+}
+
+p {
+    font-size: 16px;
+    font-family: Monospace;
+}
