@@ -4,29 +4,55 @@
 <html>
 	<head>
 		<title>HTML5 and CSS</title>
-		<link href="/Users/evanyang/Documents/Practice/HTML/FreeCodeCamp/FreeCodeCampCSS.css" rel="stylesheet">
+		<!--<link href="/Users/evanyang/Documents/Practice/HTML/FreeCodeCamp/FreeCodeCampCSS.css" rel="stylesheet">-->
+		<link href="D:\Personal\Evan\Practice\HTML\FreeCodeCampCSS.css" rel="stylesheet">		
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<h2>CatPhotoApp</h2>
-		
-        <img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="cat">
+		<h2 class="red-text">CatPhotoApp</h2>
         
         <p>
-            View more <a href="http://freecatphotoapp.com">cat photos</a>
+            Click here for <a href="#">cat photos</a>.
         </p>
-        
-		<p class="red-text">
-			Kitty ipsum dolor sit amet,
-			shed everywhere shed everywhere stretching attack
-			your ankles chase the red dot, hairball run catnip
-			eat the grass sniff.
-		</p>
 		
-		<p class="blue-text">
-			Purr jump eat the grass rip the couch scratched sunbathe,
-			shed everywhere rip the couch sleep in the sink fluffy fur
-			catnip scratched.
-		</p>
+		<a href="#">
+			<img class="smaller-image thick-green-border"
+					src="https://bit.ly/fcc-relaxing-cat"
+					alt="A cute orange cat lying on its back.">
+		</a>
+		
+		<p>Things cats love:</p>
+		<ul>
+			<li>cat nip</li>
+			<li>laser pointers</li>
+			<li>lasagna</li>
+		</ul>
+		
+		<h2>Top 3 things cats hate:</h2>
+		<ol>
+			<li>Garfield</li>
+			<li>Sylvester</li>
+			<li>Leopard</li>
+		</ol>
+		
+		<form action="/submit-cat-photo">
+			<input type="text" placeholder="cat photo URL" required />
+			<label>
+				<input type="radio" name="indoor-outdoor" checked />Indoor
+			</label>
+			<label>
+				<input type="radio" name="indoor-outdoor" />Outdoor
+			</label>
+			<label>
+				<input type="checkbox" name="personality" checked />Loving
+			</label>
+			<label>
+				<input type="checkbox" name="personality" />Adventurous
+			</label>
+			<label>
+				<input type="checkbox" name="personality" />Keen
+			</label>
+			<button type="submit">Submit</button>
+		</form>
 	</body>
 </html>
